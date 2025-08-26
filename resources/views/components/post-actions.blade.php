@@ -1,6 +1,5 @@
 <div class="flex items-center justify-between">
     <!-- Left side - Main interactions -->
-
     <div class="flex items-center gap-6 text-gray-400">
         <!-- Reply -->
         <button
@@ -14,12 +13,7 @@
         </button>
 
         <!-- Retweet -->
-        @props(['isRetweet' => false])
-
-        <button class="flex items-center gap-2 px-3 py-2 rounded-lg transition-all duration-300 group
-    {{ $isRetweet
-    ? 'text-green-500 bg-green-500/20 hover:text-green-600 hover:bg-green-600/30'
-    : 'hover:text-green-400 hover:bg-green-500/10 text-gray-400' }}">
+        <button class="flex items-center gap-2 px-3 py-2 rounded-lg transition-all duration-300 group hover:text-green-400 hover:bg-green-500/10 text-gray-400">
             <svg class="w-5 h-5 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor"
                 stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -27,7 +21,6 @@
             </svg>
             <span class="text-sm font-medium">5</span>
         </button>
-
 
         <!-- Like -->
         <button

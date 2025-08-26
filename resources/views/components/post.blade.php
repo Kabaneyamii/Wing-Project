@@ -1,21 +1,5 @@
-@props(['type' => 'regular', 'retweetedBy' => null, 'hideReply' => false])
-
 <div
     class="max-w-[calc(100vw-32px)] sm:max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 m-6 bg-gray-900/50 p-4 pt-0.5 rounded-lg relative">
-
-
-    @if($type === 'pinned')
-        <div class="absolute top-4 left-4 flex items-center gap-2 text-blue-500 font-semibold text-sm">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M15.172 7l-6.586 6.586a2 2 0 01-2.828 0l-1.172-1.172a2 2 0 010-2.828L11 4.828a2 2 0 012.828 0l1.172 1.172a2 2 0 010 2.828z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 13l6 6" />
-            </svg>
-            <span>Pinned Post</span>
-        </div>
-    @endif
-
 
     <div class="flex items-center mb-4 mt-6">
         <a href="/profile/Ozu" class="flex items-center">
@@ -48,9 +32,8 @@
         </div>
 
         <div class="flex-1 flex justify-end">
-            <x-post-actions :isRetweet="$type === 'retweet'" />
+            <x-post-actions />
         </div>
     </div>
-
 
 </div>
