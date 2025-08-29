@@ -95,7 +95,7 @@
                         <div class="relative">
                             <textarea rows="4"
                                 class="w-full bg-gray-800 border border-gray-600 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 rounded-lg px-4 py-3 text-gray-100 placeholder-gray-400 transition-colors resize-none"
-                                placeholder="Tell us about yourself">Film director and storyteller. Creating visual poetry through cinema. "The most important thing is sincerity." 🎬</textarea>
+                                placeholder="Tell us about yourself">Film director and storyteller. Creating visual poetry through cinema.</textarea>
                             <div class="absolute right-3 bottom-3 text-xs text-gray-400">160/160</div>
                         </div>
                     </div>
