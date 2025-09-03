@@ -15,14 +15,14 @@
                 </div>
             </div>
 
-            <div class="my-6 ml-8 relative">
+            <div class="my-6 ml-10 relative">
                 <div class="absolute top-0 left-0 w-0.5 h-full bg-gray-600/50"></div>
                 <div class="pl-3">
                     <x-post />
                 </div>
             </div>
 
-            <div class="my-6 ml-12 relative">
+            <div class="my-6 ml-18 relative">
                 <div class="absolute top-0 left-0 w-0.5 h-full bg-gray-700/40"></div>
                 <div class="pl-3">
                     <x-post />
